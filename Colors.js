@@ -1,4 +1,4 @@
-export const defaultColors = {
+export const Colors = {
   inherit: "inherit",
   current: "currentColor",
   transparent: "transparent",
@@ -268,14 +268,17 @@ export const defaultColors = {
     800: "#9f1239",
     900: "#881337",
   },
-  /** @deprecated As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`. Update your configuration file to silence this warning. */ lightBlue:
-    DefaultColors["sky"],
-  /** @deprecated As of Tailwind CSS v3.0, `warmGray` has been renamed to `stone`. Update your configuration file to silence this warning. */ warmGray:
-    DefaultColors["stone"],
-  /** @deprecated As of Tailwind CSS v3.0, `trueGray` has been renamed to `neutral`. Update your configuration file to silence this warning. */ trueGray:
-    DefaultColors["neutral"],
-  /** @deprecated As of Tailwind CSS v3.0, `coolGray` has been renamed to `gray`. Update your configuration file to silence this warning. */ coolGray:
-    DefaultColors["gray"],
-  /** @deprecated As of Tailwind CSS v3.0, `blueGray` has been renamed to `slate`. Update your configuration file to silence this warning. */ blueGray:
-    DefaultColors["slate"],
+  
 };
+
+
+/** @deprecated As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`. Update your configuration file to silence this warning. */ 
+// lightBlue: DefaultColors["sky"],
+  /** @deprecated As of Tailwind CSS v3.0, `warmGray` has been renamed to `stone`. Update your configuration file to silence this warning. */ 
+// warmGray: DefaultColors["stone"],
+  /** @deprecated As of Tailwind CSS v3.0, `trueGray` has been renamed to `neutral`. Update your configuration file to silence this warning. */ 
+// trueGray: DefaultColors["neutral"],
+  /** @deprecated As of Tailwind CSS v3.0, `coolGray` has been renamed to `gray`. Update your configuration file to silence this warning. */ 
+// coolGray: DefaultColors["gray"],
+  /** @deprecated As of Tailwind CSS v3.0, `blueGray` has been renamed to `slate`. Update your configuration file to silence this warning. */ 
+// blueGray: DefaultColors["slate"],
